@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="CoreMon.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CoreMon"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="CPU Cores frequency:" VerticalAlignment="Top" Height="56" Width="316" FontSize="20"/>
+        <TextBlock x:Name="c1" HorizontalAlignment="Left" Margin="16,75,0,0" TextWrapping="Wrap" Text="Core 1:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="c2" HorizontalAlignment="Left" Margin="16,100,0,0" TextWrapping="Wrap" Text="Core 2:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="c3" HorizontalAlignment="Left" Margin="16,125,0,0" TextWrapping="Wrap" Text="Core 3:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="c4" HorizontalAlignment="Left" Margin="16,150,0,0" TextWrapping="Wrap" Text="Core 4:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cc1" HorizontalAlignment="Left" Margin="245,75,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cc3" HorizontalAlignment="Left" Margin="245,125,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="cpb1" HorizontalAlignment="Left" Height="10" Margin="85,81,0,0" VerticalAlignment="Top" Width="138" Minimum="300" Maximum="299" SmallChange="10"/>
+        <ProgressBar x:Name="cpb2" HorizontalAlignment="Left" Height="10" Margin="85,106,0,0" VerticalAlignment="Top" Width="138" Minimum="300"/>
+        <ProgressBar x:Name="cpb3" HorizontalAlignment="Left" Height="10" Margin="85,132,0,0" VerticalAlignment="Top" Width="138" Minimum="300"/>
+        <ProgressBar x:Name="cpb4" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="138" Margin="85.333,155.619,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Minimum="300">
+            <ProgressBar.RenderTransform>
+                <CompositeTransform Rotation="-0.183"/>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <TextBlock x:Name="cc2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Margin="245,100,0,0"/>
+        <TextBlock x:Name="cc4" HorizontalAlignment="Left" Margin="245,150,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cc8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Margin="245,249,0,0"/>
+        <TextBlock x:Name="cc7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Margin="245,224,0,0"/>
+        <TextBlock x:Name="c5" HorizontalAlignment="Left" Margin="16,175,0,0" TextWrapping="Wrap" Text="Core 5:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="c6" HorizontalAlignment="Left" Margin="16,199,0,0" TextWrapping="Wrap" Text="Core 6:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="c7" HorizontalAlignment="Left" Margin="16,224,0,0" TextWrapping="Wrap" Text="Core 7:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="c8" HorizontalAlignment="Left" Margin="16,249,0,0" TextWrapping="Wrap" Text="Core 8:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cc5" HorizontalAlignment="Left" Margin="245,175,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cc6" HorizontalAlignment="Left" Margin="245,199,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="cpb5" HorizontalAlignment="Left" Height="10" Margin="85,181,0,0" VerticalAlignment="Top" Width="137" Minimum="300"/>
+        <ProgressBar x:Name="cpb6" HorizontalAlignment="Left" Height="10" Margin="85,205,0,0" VerticalAlignment="Top" Width="138" Minimum="300"/>
+        <ProgressBar x:Name="cpb7" HorizontalAlignment="Left" Height="10" Margin="85,230,0,0" VerticalAlignment="Top" Width="138" Minimum="300"/>
+        <ProgressBar x:Name="cpb8" HorizontalAlignment="Left" Height="10" Margin="85,255,0,0" VerticalAlignment="Top" Width="138" Minimum="300"/>
+
+    </Grid>
+</Page>
